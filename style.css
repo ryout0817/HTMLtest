@@ -154,11 +154,12 @@ main {
 }
 .FirstView {
  background-size: cover;
+ background-repeat: no-repeat;
  display: block;
- background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+ background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
  background-position: center;
- width: 100%;
- padding-top: 120px;
+ padding-top: 100px;
+ padding-bottom: 28px;
 }
 @media screen and (max-width: 767px){
 .FirstView {
